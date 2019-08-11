@@ -1,0 +1,202 @@
+body{
+	background-color: #fff;
+	font-family: futura MD .Bt;
+	/*position: relative;*/
+}
+#start{
+	background-image: url(../images/bluebird.jpg);
+	background-position: right center;
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+
+}
+#toggle{
+	font-size:30px;
+	color:#fff;
+	cursor:pointer;
+	margin-left: 3%;
+	
+}
+#toggle:hover{
+
+	color: #3399ff;
+
+}
+
+.land h1{
+
+	color: #fff;
+	font-size:4em;
+	font-weight: bold;
+	-webkit-animation: mymove 3s infinite;
+	
+}
+
+@keyframes:mymove{
+50%{color:rgb(66,66,248);}
+}
+.land{
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.land h3{
+	color: #fff;
+	font-style: italic;
+}
+ #purchase-btn{
+	margin-top: 3%;
+	border-radius: 30px;
+	width: 25%;
+	background-color: transparent;
+	color:#fff;
+	transition: all 0.3s ease-in-out;
+}
+ #purchase-btn:hover{
+	background: linear-gradient(45deg, #3399ff, #063b78);
+	color: #fff;
+	
+}
+
+#logo{
+	font-weight: bold;
+	font-style: italic;
+	float: right;
+	margin-right: 4%;
+	color: linear-gradient(45deg, #3399ff, #fff);
+
+}
+
+ .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgba(0, 0, 0,0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;#818181;
+    display: block;
+    transition: 0.3s;
+}
+
+#link{
+	font-family: sans-serif;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color:#3399ff; #f1f1f1;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px !important;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#about{
+	margin-top: 5%;
+}
+#about h2{
+	margin-bottom: 4%;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#about p{
+	font-family:futura MD Bt;
+	line-height: 2.5em;
+}
+#jojo{
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+#jojo .why h1{
+	
+	font-size: 300%;
+	color:#3399ff; 
+	
+}
+#jojo .why h4{
+	font-weight: bold;
+
+}
+#contact{
+	background-color:#fff;
+}
+
+#contact h2{
+	margin-bottom: 3%;
+}
+
+#contact p{
+	font-style: italic;
+	text-align: center;
+}
+#place h1{
+
+
+ color:  #063b78;
+ font-size: 2.0em;
+
+
+
+}
+#place .info{
+
+	color: #000f;
+	 text-shadow: 19px 4px 12px #555;
+	font-size: 0.7em;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+.social-icon {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+.social-icon li {
+	list-style: none;
+	display: inline-block;
+}
+.social-icon li a {
+	background: #f8f8f8;
+	border-radius: 100%;
+	color:#3399ff;
+	font-size: 32px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+	margin: 0 6px 40px 6px;
+}
+.social-icon li a:hover {
+	background:#3399ff; #080808;
+	color:  #f8f8f8;
+}
+
+
